@@ -19,11 +19,11 @@ export default class House {
             <div class="card">
                 <img class="card-img-top" src="${this.imgUrl}" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">year: ${this.year}  bedrooms: ${this.bedrooms}  bathrooms: ${this.bathrooms}</h5>
+                    <h5 class="card-title">year: ${this.year}<br>  bedrooms: ${this.bedrooms}<br>  bathrooms: ${this.bathrooms}</h5>
                     <p class="card-text">Description: ${this.description}</p>
                     <p><sm>$${this.price}</sm></p>
-                    <button class="btn btn-info" onclick="app.controllers.houseController.bid('${this._id}')">Bid</button>
-                    <button class="btn btn-danger" onclick="app.controllers.houseController.delete('${this._id}')">Delete House</button>
+                    <button class="btn btn-info mt-2" onclick="app.controllers.houseController.bid('${this._id}')">Bid</button>
+                    <button class="btn btn-danger mt-2" onclick="app.controllers.houseController.delete('${this._id}')">Delete House</button>
                 </div >
             </div >
         </div >
