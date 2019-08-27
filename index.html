@@ -11,17 +11,22 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid backgroundImage">
         <header class="row">
-            <div class="col-12">
-                <h1>Gregs-List*</h1>
+            <div class="col-12 text-center">
+                <h1><b>Gregs-List*</b></h1>
                 <p>
-                    <sm>*No relation to Craig</sm>
+                    <sm><i>*No relation to Craig</i></sm>
                 </p>
             </div>
         </header>
+        <div class="row">
+            <div class="col bg-dark text-white mt-5">
+                <h1>Shop for Vehicles</h1>
+            </div>
+        </div>
         <main class="row">
-            <div class="col-12">
+            <div class="col-12 bg-dark text-white">
                 <form class="d-flex" onsubmit='app.controllers.carCtrl.addCar(event)'>
                     <div class="form-group">
                         <label for="make">Make</label>
@@ -59,13 +64,18 @@
                 </div>
             </div>
         </main>
+        <div class="row">
+            <div class="col bg-dark text-white mt-5">
+                <h1>Shop for Houses</h1>
+            </div>
+        </div>
         <main class="row">
-            <div class="col-12">
+            <div class="col-12 bg-warning text-white">
                 <form class="d-flex" onsubmit='app.controllers.houseController.addHouse(event)'>
                     <div class="form-group">
                         <label for="year">Year</label>
                         <input type="number" class="form-control" id="year" placeholder="0" name="squareFootage">
-                        <button class="btn btn-success mt-4" type="submit">Create</button>
+                        <button class="btn btn-dark mt-4" type="submit">Create</button>
                     </div>
                     <div class="form-group">
                         <label for="bedrooms">Bedrooms</label>

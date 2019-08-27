@@ -15,7 +15,7 @@ export default class Car {
         <div class="col-3">
             <div class="card">
                 <img class="card-img-top" src="${this.imgUrl}" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body bg-dark text-white">
                     <h5 class="card-title"> Year: ${this.year}<br> Make: ${this.make}<br> Model: ${this.model}</h5>
                     <p class="card-text">Description: ${this.description}</p>
                     <p><sm>$ ${this.price}</sm></p>
