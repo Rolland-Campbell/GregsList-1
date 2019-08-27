@@ -20,8 +20,8 @@ export default class CarController {
         _cs.getApiCars();
     }
 
-    addCar(e) {
-        e.preventDefault();
+    addCar(e) { //e is the event from html
+        e.preventDefault(); //needed to prevent page reload
         let form = e.target
         let data = {
             make: form.make.value,
