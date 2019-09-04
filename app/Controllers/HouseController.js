@@ -21,6 +21,7 @@ export default class HouseController {
     let data = {
       year: form.year.value,
       bedrooms: form.bedrooms.value,
+      squareFootage: form.squareFootage.value,
       imgUrl: form.imgUrl.value,
       bathrooms: form.bathrooms.value,
       price: form.price.value,
